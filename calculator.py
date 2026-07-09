@@ -18,6 +18,3 @@ print(calculator(10, 5, 'add'))        # Output: 15
 print(calculator(10, 5, 'subtract'))   # Output: 5
 print(calculator(10, 5, 'multiply'))   # Output: 50
 print(calculator(10, 5, 'divide'))     # Output: 2.0
-print(calculator(10, 0, 'divide'))      # Raises ValueError: Cannot divide by zero.
-
-print(calculator(10, 5, 'modulus'))     # Raises ValueError: Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'.
